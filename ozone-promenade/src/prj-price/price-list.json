@@ -1,46 +1,41 @@
 {
 "data":[
-    {
-      "unitType": "Studio",
-      "size": "510",
-      "price": 4870,
-      "cost": "24.83L onwards"
-    },
-    {
-      "unitType": "1 BHK",
-      "size": "620",
-      "price": 4870,
-      "cost": "30.19L onwards"
-    },
-    {
-      "unitType": "1.5 BHK",
-      "size": "919",
-      "price": 4870,
-      "cost": "44.75L onwards"
-    },
-    {
+        {
       "unitType": "2 BHK",
-      "size": "1164",
-      "price": 4870,
-      "cost": "56.68L onwards"
+      "size": "1370",
+      "price": 6140,
+      "cost": "84.11L onwards"
+    },
+     {
+      "unitType": "2 BHK",
+      "size": "1400",
+      "price": 6140,
+      "cost": "85.96L onwards"
+    },
+    
+    {
+      "unitType": "2.5 BHK",
+      "size": "1500",
+      "price": 6140,
+      "cost": "92.10L onwards"
     },
     {
       "unitType": "2.5 BHK",
-      "size": "1437",
-      "price": 4870,
-      "cost": "69.98L onwards"
+      "size": "1530",
+      "price": 6140,
+      "cost": "93.94L onwards"
     },
     {
       "unitType": "3 BHK",
-      "size": "1685",
-      "price": 4870,
-      "cost": "82.02L onwards"
+      "size": "1770",
+      "price": 6140,
+      "cost": "1.08Cr onwards"
     },
-    {
-      "unitType": "4 BHK",
-      "size": "2200",
-      "price": 4870,
-      "cost": "1.07Cr onwards"
+     {
+      "unitType": "3 BHK",
+      "size": "2400",
+      "price": 6140,
+      "cost": "1.47Cr onwards"
     }
    ]
 }

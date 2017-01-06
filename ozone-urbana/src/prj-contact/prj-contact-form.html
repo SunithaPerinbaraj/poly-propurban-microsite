@@ -96,7 +96,7 @@
 		submitForm: function(){
 			if(this.name != null && this.mobile !=null && this.email != null && this.message != null)
 				{
-					this.$.ajax.params= {"key": "VHIvsqduxEypeifPvSD2qQ", "message[from_email]": "accounts@propurban.com", "message[from_name]": this.name, "message[headers][Reply-To]":"accounts@propurban.com", "message[subject]": this.name +": "+"Enquiry mail", "message[text]": "Name: "+ this.name + "\r\n\r\nMobile: "+ this.mobile+ "\r\n\r\nEmail: "+this.email+"\r\n\r\nMessage: "+this.message, "message[to][0][email]":"accounts@propurban.com", "message[to][0][name]": "Waseef Khan", "message[to][0][type]":"to"};
+					this.$.ajax.params= {"key": "VHIvsqduxEypeifPvSD2qQ", "message[from_email]": "accounts@propurban.com", "message[from_name]": this.name, "message[headers][Reply-To]":"accounts@propurban.com", "message[subject]": this.name +": "+"Enquiry mail from Ozone Urbana", "message[text]": "Name: "+ this.name + "\r\n\r\nMobile: "+ this.mobile+ "\r\n\r\nEmail: "+this.email+"\r\n\r\nMessage: "+this.message, "message[to][0][email]":"accounts@propurban.com", "message[to][0][name]": "Waseef Khan", "message[to][0][type]":"to"};
 					this.$.ajax.generateRequest();
 					this.name = null;
 					this.mobile =null;

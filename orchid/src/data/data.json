@@ -1,22 +1,19 @@
 {
 	"@context": "http://json-ld.org/contexts/data.jsonld",
-	"@id": "http://bhartiyacity.nikoohomes2.propurban.com",
-	"@type": "http://bhartiyacity.nikoohomes2.propurban.com/projects",
-	"builderName": "Bhartiya City",
-	"builderPage": "http://bhartiyacity.propurban.com",
-	"projectName": "Nikoo Homes - II"
-
-
+	"@id": "http://goyal&coorchidwhitefield.propurban.com",
+	"@type": "http://goyal&coorchidwhitefield.propurban.com/projects",
+	"builderName": "Goyal & Co",
+	"builderPage": "http://goyal&co.propurban.com",
+	"projectName": "Orchid Whitefield"
 }
 
 {
 	"@context": "data.json",
 	"@id": "propurban.com",
 	"@type": "projects",
-	"builderName": "Bhartiya City",
-	"builderPage": "http://bhartiyacity.propurban.com",
-	"projectName": "Nikoo Homes - II",
-	"projectPage": "http:bhartiyacity.nikoohomes2.propurban.com"
-
+	"builderName": "Goyal & Co",
+	"builderPage": "http://goyal&co.propurban.com",
+	"projectName": "Orchid Whitefield"
+	"projectPage": "http://goyal&coorchidwhitefield.propurban.com"
 
 }

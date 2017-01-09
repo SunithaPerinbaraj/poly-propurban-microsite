@@ -1,58 +1,22 @@
 {
 "data":[
     {
-      "unitType": "1 BHK",
-      "size": "676",
-      "price": 5240,
-      "cost": "35.42L onwards"
-    },
-    {
-      "unitType": "1.5 BHK",
-      "size": "906",
-      "price": 5240,
-      "cost": "47.47L onwards"
-    },
-    {
       "unitType": "2 BHK",
-      "size": "1195",
-      "price": 5240,
-      "cost": "62.61L onwards"
-    },
-    {
-      "unitType": "2 BHK",
-      "size": "1218",
-      "price": 5240,
-      "cost": "63.82L onwards"
-    },
-    {
-      "unitType": "2.5 BHK",
-      "size": "1410",
-      "price": 5240,
-      "cost": "73.88L onwards"
-    },
-    {
-      "unitType": "2.5 BHK",
-      "size": "1422",
-      "price": 5240,
-      "cost": "74.51L onwards"
+      "size": "1400",
+      "price": 6100,
+      "cost": "85.40L onwards"
     },
     {
       "unitType": "3 BHK",
-      "size": "1718",
-      "price": 5240,
-      "cost": "90.02L onwards"
+      "size": "1500-1600",
+      "price": 6100,
+      "cost": "91.5L - 97.6L onwards"
     },
     {
       "unitType": "3 BHK",
-      "size": "1727",
-      "price": 5240,
-      "cost": "90.49L onwards"
-    },
-    {
-      "unitType": "3.5 BHK",
-      "size": "2200",
-      "price": 5240,
-      "cost": "1.15Cr onwards"
+      "size": "1800-1900",
+      "price": 6100,
+      "cost": "1.09Cr - 1.15Cr onwards"
     }
    ]
 }

@@ -1,0 +1,7 @@
+{
+  "name": "propurban",
+  "short_name": "web-app",
+  "description": "Ozone Urbana residential property has 2500 units of luxury flats 1/1.5/2/2.5/3/3.5 Duplex Apartments for sale in Bangalore. Enquire now!",
+  "start_url": "/",
+  "display": "standalone"
+}

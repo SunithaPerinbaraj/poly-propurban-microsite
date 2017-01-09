@@ -1,0 +1,74 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<dom-module id="prj-specification-unit">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+			    width: 195px;
+			    vertical-align: top;
+			  }
+			  iron-icon{
+			  	float:left;
+			  }
+			  .unit{
+				margin:5px;
+				padding-left:30px;
+				font-weight: 600;
+			  }
+			  li{
+			  	padding:5px 0;
+			  	margin:0;
+			  }
+			  ul{
+			  	margin:0;
+			  	padding:0;
+			  }
+		</style>
+		<div class="horizontal">
+			<paper-card elevation="0" animated-shadow="true">
+			  <div class="card-content">
+			  	<iron-icon src="../images/icons/fittings.svg"></iron-icon>
+			  	<div class="unit">Fittings</div>
+			  	<div class="card-actions">
+			  	<ul><li>Low density due to open spaces: Springs has only 6 plots per acre (incl row houses & villa). The density of other developers generally ranges 9-11</li></ul></div>
+			  </div>
+			</paper-card>
+			<paper-card elevation="0" animated-shadow="true">
+			  <div class="card-content">
+			  	<iron-icon src="../images/icons/window.svg"></iron-icon>
+			  	<div class="unit">Windows</div>
+			  	<div class="card-actions"><ul><li>Most developers have roads in the width range of 8-12 m. Our smallest road is 12m. our range is 12-24.5 ms</li></ul></div>
+			  </div>
+			</paper-card>
+			<paper-card elevation="0" animated-shadow="true">
+			  <div class="card-content">
+			  	<iron-icon src="../images/icons/doors.svg"></iron-icon>
+			  	<div class="unit">Doors</div>
+			  	<div class="card-actions"><ul><li>Dedicate cycle tracks and walk tracks that are wheel chair-friendly – Kids can skateboard anywhere in the entire springs campus</li></ul></div>
+			  </div>
+			</paper-card>
+			<paper-card elevation="0" animated-shadow="true">
+			  <div class="card-content">
+			  	<iron-icon src="../images/icons/wall.svg"></iron-icon>
+			  	<div class="unit">Walls</div>
+			  	<div class="card-actions"><ul><li> Before Toll Plaza– this is a major advantage– Already an established location (Hollywood town/ Swiss town) is adjacent to us. We are NOT in Nandi hills OR IVC road</li></ul></div>
+			  </div>
+			</paper-card>
+			<paper-card elevation="0" animated-shadow="true">
+			  <div class="card-content">
+			  	<iron-icon src="../images/icons/flooring.svg"></iron-icon>
+			  	<div class="unit">Flooring</div>
+			  	<div class="card-actions"><ul><li>Balcony - Vitrified Tiles</li><li>Kitchen - Ceramic Tiles</li><li>Other Bedroom - Ceramic Tiles</li><li>Living & Dining - Vitrified Tiles</li></ul></div>
+			  </div>
+			</paper-card>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-specification-unit'
+		});
+	</script>
+</dom-module>

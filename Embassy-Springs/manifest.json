@@ -1,0 +1,7 @@
+{
+  "name": "propurban",
+  "short_name": "web-app",
+  "description": "Embassy Springs is a 300 Acres of residential township comprising of Plots, Villas, Row houses, Apartments, Retail, Schools, Hospital and Club House. Embassy Springs Plots are located at International Airport Road, Devanahalli Bangalore.",
+  "start_url": "/",
+  "display": "standalone"
+}

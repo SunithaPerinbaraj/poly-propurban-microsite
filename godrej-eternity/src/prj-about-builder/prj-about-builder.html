@@ -1,0 +1,27 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+
+<dom-module id="prj-about-builder">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+		    width: 100%;
+		  }
+		  paper-icon-button {
+		      color: var(--paper-grey-600);
+		    }
+		</style>
+		<div class="horizontal">
+		  <paper-card heading="About Us" class="black" elevation="2">
+		  	<div class="card-content"> Godrej Properties brings the Godrej Group philosophy of innovation and excellence to the real estate industry. The company is currently developing landmark projects in 12 cities across India. Established in 1990, Godrej Properties Limited is the first real estate company to have ISO certification. With projects that span across the country, the company's upcoming development covers over 8 million square meters. To create landmark structures, Godrej Properties collaborates with outstanding associates and reputed names. The company aims to deliver superior value to all stakeholders through extraordinary and imaginative spaces created out of deep customer focus and insight.</div>
+		  </paper-card>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-about-builder'
+		});
+	</script>
+</dom-module>

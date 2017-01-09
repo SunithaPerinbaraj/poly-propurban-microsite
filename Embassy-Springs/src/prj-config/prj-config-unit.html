@@ -1,0 +1,46 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<dom-module id="prj-config-unit">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+			    width: 195px;
+			  }
+			  iron-icon{
+			  	float:left;
+			  }
+			  .unit{
+				margin:5px;
+				padding-left:30px;
+			  }
+			  paper-card::shadow.header.paper-card .title-text.paper-card{
+			  	font-size:20px;
+			  }
+		</style>
+		<div class="horizontal">
+			<paper-card heading="Project Area" elevation="0" animated-shadow="true">
+			  <div class="card-content">
+			  	<iron-icon src="../images/icons/project_area.svg"></iron-icon>
+			  	<div class="unit">300 Acres</div>
+			  </div>
+			</paper-card>
+			<paper-card heading="Total Blocks" elevation="0" animated-shadow="true">
+			  <div class="card-content">
+			  	<iron-icon src="../images/icons/tower.svg"></iron-icon>
+			  	<div class="unit">Only 6 Plots Per Acre</div>
+			  </div>
+			</paper-card>
+			
+			
+			
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-config-unit'
+		});
+	</script>
+</dom-module>

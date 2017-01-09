@@ -1,0 +1,43 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+ <link rel="import" href="../../bower_components/iron-collapse/iron-collapse.html">
+  <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../../bower_components/iron-icons/hardware-icons.html">
+
+<dom-module id="prj-description">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+		    width: 100%;
+		  }
+		  paper-icon-button {
+		      color: var(--paper-grey-600);
+		    }
+		</style>
+		<div class="horizontal">
+		  <paper-card heading="Project Description" class="black" elevation="2">
+		  	<div class="card-content">Assetz 63 degree East  is brand new prelaunch  project launched by Assetz Lifestyle  located Off Sarjapur Road Bangalore</div>
+		  			<!-- <paper-icon-button icon="hardware:keyboard-arrow-down" title="more info" onclick="_toggle()" style="float:right;">
+		  						    </paper-icon-button>
+		  						    <iron-collapse id="more-info" style="width:95%; padding:15px;"> -->
+			      <div class="card-actions" style="padding: 15px;">Assetz 63 Degree East is Prelaunch residential development from the most reputed builders Assetz Lifestyle Group developing at the foremost after-sought locations of metropolis- Bangalore i.e Off Sarjapur Road coming under Eastern zone of the city. Assetz Lifestyle 63 Degree East Project sprawls over 17.7 acres of land and constructed with 5 Towers having Stilt+13 Storeys. These towers houses 1,2 and 3 BHK units with sizes ranging between 690-1164 sfts. The base price of project is around Rs. 4500 per sft.<!-- 
+			      			    </iron-collapse> -->
+			      			    </div>
+		  </paper-card>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-description'
+		});
+		 function _toggle() {
+	          var moreInfo = document.getElementById('more-info');
+	          var iconButton = Polymer.dom(event).localTarget;
+	          iconButton.icon = moreInfo.opened ? 'hardware:keyboard-arrow-down'
+	                                            : 'hardware:keyboard-arrow-up';
+	          moreInfo.toggle();
+	        }
+	</script>
+</dom-module>

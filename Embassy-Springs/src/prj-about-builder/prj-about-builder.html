@@ -1,0 +1,27 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+
+<dom-module id="prj-about-builder">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+		    width: 100%;
+		  }
+		  paper-icon-button {
+		      color: var(--paper-grey-600);
+		    }
+		</style>
+		<div class="horizontal">
+		  <paper-card heading="About Us" class="black" elevation="2">
+		  	<div class="card-content"> Embassy Group is one of the leading property developers in India with a track record of over three decades in real estate development. Embassy has an extensive land bank across the country and has developed over 37 million sft of prime commercial, residential and retail space in India as well as Malaysia and Serbia. Embassy's portfolio of real estate developments spans the commercial, residential, industrial, retail and hospitality segments of the real estate industry. While the commercial real estate business includes the development of business parks for the IT/ITeS sector, SEZs and corporate office space, Embassy's ongoing residential projects include luxury apartments, villas and integrated townships. Embassy's residential projects are also designed to obtain IGBC Green Homes ratings as part of the efforts towards creating sustainable developments.</div>
+		  </paper-card>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-about-builder'
+		});
+	</script>
+</dom-module>

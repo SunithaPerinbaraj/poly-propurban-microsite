@@ -1,0 +1,31 @@
+{
+"data":[
+    
+    {
+      "unitType": "1 BHK",
+      "size": "690",
+      "price": 4199,
+      "cost": "28.97L onwards"
+    },
+    {
+      "unitType": "2 BHK",
+      "size": "1000",
+      "price": 4199,
+      "cost": "41.99L onwards"
+    },
+    
+    {
+      "unitType": "3 BHK",
+      "size": "1400",
+      "price": 4199,
+      "cost": "58.78L onwards"
+    },
+    {
+      "unitType": "3 BHK",
+      "size": "1900",
+      "price": 4199,
+      "cost": "79.78L onwards"
+    }
+    
+   ]
+}

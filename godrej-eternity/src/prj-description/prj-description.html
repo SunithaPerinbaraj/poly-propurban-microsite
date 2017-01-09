@@ -1,0 +1,43 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+ <link rel="import" href="../../bower_components/iron-collapse/iron-collapse.html">
+  <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../../bower_components/iron-icons/hardware-icons.html">
+
+<dom-module id="prj-description">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+		    width: 100%;
+		  }
+		  paper-icon-button {
+		      color: var(--paper-grey-600);
+		    }
+		</style>
+		<div class="horizontal">
+		  <paper-card heading="Project Description" class="black" elevation="2">
+		  	<div class="card-content">Godrej Eternity offers 2 & 3 bedroom units with sizes ranging from 1000 to 1900 sq. ft. spread across 18 Acres. Godrej Eternity is now open for pre-launch for a limited period only</div>
+		  			<!-- <paper-icon-button icon="hardware:keyboard-arrow-down" title="more info" onclick="_toggle()" style="float:right;">
+		  						    </paper-icon-button>
+		  						    <iron-collapse id="more-info" style="width:95%; padding:15px;"> -->
+			      <div class="card-actions" style="padding: 15px;">This project is being developed on a 18+ acre land parcel where Godrej Properties is bringing low rise (G+3) homes inspired by the Old Bangalore charm and having spacious 2 and 3 BHK apartments. The project will bring back the nostalgia of Old Bangalore’s low rise homes, expansive greenery, pedestrian friendly areas  along with new-age amenities like lavish clubhouse, smart home features, multiple convenience stores, entertainment tie-ups and work friendly features.<!-- 
+			      			    </iron-collapse> -->
+			      			    </div>
+		  </paper-card>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-description'
+		});
+		 function _toggle() {
+	          var moreInfo = document.getElementById('more-info');
+	          var iconButton = Polymer.dom(event).localTarget;
+	          iconButton.icon = moreInfo.opened ? 'hardware:keyboard-arrow-down'
+	                                            : 'hardware:keyboard-arrow-up';
+	          moreInfo.toggle();
+	        }
+	</script>
+</dom-module>

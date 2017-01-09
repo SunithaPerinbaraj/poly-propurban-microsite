@@ -1,0 +1,43 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+ <link rel="import" href="../../bower_components/iron-collapse/iron-collapse.html">
+  <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../../bower_components/iron-icons/hardware-icons.html">
+
+<dom-module id="prj-description">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+		    width: 100%;
+		  }
+		  paper-icon-button {
+		      color: var(--paper-grey-600);
+		    }
+		</style>
+		<div class="horizontal">
+		  <paper-card heading="Project Description" class="black" elevation="2">
+		  	<div class="card-content">Embassy Springs consists of Plots, Apartments, Row Houses, Villas, Hospital, School, Commercial building including Shopping mall that are spread over 300 acres of land.</div>
+		  			<!-- <paper-icon-button icon="hardware:keyboard-arrow-down" title="more info" onclick="_toggle()" style="float:right;">
+		  						    </paper-icon-button>
+		  						    <iron-collapse id="more-info" style="width:95%; padding:15px;"> -->
+			      <div class="card-actions" style="padding: 15px;">Embassy Springs located in North Bangalore is a 300 acre gated community. The development includes plots, apartments, row house and villas, designed for the most discerning. 815 plots each measuring 2100 to 5400 SFT, 3000 luxury apartments, 200 villas, top school, health care establishments, plentiful green cover and pocket parks with several water bodies. The 150,000 SFT club is equipped to cater to recreational activities, business, a bio pool and children engagement needs.<!-- 
+			      			    </iron-collapse> -->
+			      			    </div>
+		  </paper-card>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-description'
+		});
+		 function _toggle() {
+	          var moreInfo = document.getElementById('more-info');
+	          var iconButton = Polymer.dom(event).localTarget;
+	          iconButton.icon = moreInfo.opened ? 'hardware:keyboard-arrow-down'
+	                                            : 'hardware:keyboard-arrow-up';
+	          moreInfo.toggle();
+	        }
+	</script>
+</dom-module>

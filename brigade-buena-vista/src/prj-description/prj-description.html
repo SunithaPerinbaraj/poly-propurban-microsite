@@ -1,0 +1,44 @@
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+ <link rel="import" href="../../bower_components/iron-collapse/iron-collapse.html">
+  <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../../bower_components/iron-icons/hardware-icons.html">
+
+<dom-module id="prj-description">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			paper-card{
+		    width: 100%;
+		  }
+		  paper-icon-button {
+		      color: var(--paper-grey-600);
+		    }
+		</style>
+		<div class="horizontal">
+		  <paper-card heading="Project Description" class="black" elevation="2">
+		  	<div class="card-content">Brigade Buena Vista offers 2 & 3 bedroom units with sizes ranging from 1150 to 1670 sq. ft. spread across 4 towers 22 floors high. Brigade Buena Vista is now open for pre-launch for a limited period only</div>
+		  			<!-- <paper-icon-button icon="hardware:keyboard-arrow-down" title="more info" onclick="_toggle()" style="float:right;">
+		  						    </paper-icon-button>
+		  						    <iron-collapse id="more-info" style="width:95%; padding:15px;"> -->
+			      <div class="card-actions" style="padding: 15px;">Brigade Group brings you Brigade Buena Vista, luxury apartments in the lucrative micro-market of East Bangalore. Located just 2km from Budigere Cross, these homes enjoy excellent connectivity to Indiranagar, Whitefield and the Airport. A clubhouse, well-equipped with all modern amenities, ensures you never have a dull moment here while the prime address of the project promises good appreciation potential.
+            Invest in Brigade Buena Vista for a lifetime of happiness.<!-- 
+			      			    </iron-collapse> -->
+			      			    </div>
+		  </paper-card>
+		</div>
+	</template>
+	<script>
+		Polymer({
+			is: 'prj-description'
+		});
+		 function _toggle() {
+	          var moreInfo = document.getElementById('more-info');
+	          var iconButton = Polymer.dom(event).localTarget;
+	          iconButton.icon = moreInfo.opened ? 'hardware:keyboard-arrow-down'
+	                                            : 'hardware:keyboard-arrow-up';
+	          moreInfo.toggle();
+	        }
+	</script>
+</dom-module>

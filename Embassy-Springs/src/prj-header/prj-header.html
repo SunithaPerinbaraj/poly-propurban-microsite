@@ -11,12 +11,12 @@
 <link rel="import" href="../../bower_components/app-layout/app-drawer/app-drawer.html">
 
 <dom-module id="prj-header">
-	<template>
-		<style>
-			:host {
-				display: block;
-			}
-			app-header {
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      app-header {
       position: fixed;
       top: 0;
       left: 0;
@@ -26,7 +26,7 @@
       background-image: url(header.jpg);
       background-position: bottom center;
       background-size: cover;
-		  z-index:1001;
+      z-index:1001;
       --app-header-background-front-layer: {
         background: -webkit-linear-gradient(top, transparent 0%, transparent 50%, rgba(0,0,0,0.5) 100%);
       };
@@ -72,19 +72,19 @@
       }
     }
     .contact{
-    	color:red;
-    	font-weight: bold;
-    	margin-right: 25px;
+      color:red;
+      font-weight: bold;
+      margin-right: 25px;
     }
     .contact-no{
-    	position: absolute;
-    	margin-top: 0px;
-    	top:0px;
-    	right:0;
+      position: absolute;
+      margin-top: 10px;
+      top:10px;
+      right:0;
     }
     .condensed-logo{
-    	width: 120px;
-    	margin-top: 5px;
+      width: 120px;
+      margin-top: 5px;
       float: left;
     }
     .nav {
@@ -134,16 +134,16 @@
       }
     }
 </style>
-		<app-header condenses fixed effects="waterfall resize-title fade-background">
-		    <app-toolbar><!-- 
+    <app-header condenses fixed effects="waterfall resize-title fade-background">
+        <app-toolbar><!-- 
                 <paper-icon-button id="menu" onClick icon="menu"></paper-icon-button> -->
-		      <div condensed-title>
-		      <img src="embassy-logo.png" alt="embassy springs logo" class="condensed-logo">
+          <div condensed-title>
+          <img src="embassy-logo.png" height="65px" alt="embassy logo" class="condensed-logo">
 
-		      <div class="contact-no">
-		      	<paper-icon-button src="call.png" width="24px"></paper-icon-button><span class="contact">+91 8747900077</span>
-		      </div>
-		      </div>
+          <div class="contact-no">
+            <paper-icon-button src="call.png" width="24px"></paper-icon-button><span class="contact">+91 8747900077</span>
+          </div>
+          </div>
             <app-box scroll-target="scrollingRegion" threshold="64">
               <ul role="navigation" class="nav">
                 <li><a href="#main">Home</a></li>
@@ -157,7 +157,7 @@
                 <li><a href="#contact">Contact Us</a></li>
               </ul>
             </app-box>
-		    </app-toolbar>
+        </app-toolbar>
         <app-drawer swipe-open><!-- 
           <paper-menu selected="0">
             <paper-item>Item One</paper-item>
@@ -165,8 +165,8 @@
             <paper-item>Item Three</paper-item>
           </paper-menu> -->
         </app-drawer>
-		    <h1 main-title><img src="embassy-logo.png" alt="embassy springs logo"></h1>
-	  </app-header>
+        <h1 main-title><img src="embassy-logo.png" height="90px" alt="embassy logo"></h1>
+    </app-header>
     <app-drawer swipe-open><!-- 
           <paper-menu selected="0">
             <paper-item>Item One</paper-item>
@@ -175,20 +175,20 @@
           </paper-menu> -->
         </app-drawer>
     </template>
-	<script>
-		Polymer({
-			is: 'prj-header',
+  <script>
+    Polymer({
+      is: 'prj-header',
       goLink: function(e) {
         window.location.href = e.target.getAttribute('link');
       }
-		});
+    });
     /*var drawer = document.querySelector('app-drawer');
     var menu = null;
     var menu = document.getElementById('menu');
     menu.addEventListener('tap', function() {
       drawer.toggle();
     });*/
-	</script>
+  </script>
 
   
 </dom-module>
